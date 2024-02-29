@@ -6,7 +6,7 @@ sealed trait Product {
 }
 
 final object Apple extends Product {
-  val price = 0.6
+  val price = 0.60
 }
 
 final object Orange extends Product {

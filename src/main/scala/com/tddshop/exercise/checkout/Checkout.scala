@@ -5,6 +5,9 @@ import com.tddshop.exercise.products.Product
 class Checkout {
   def Total(inputProducts: List[Product]): Double = {
     var result = 0.0
+    for (product <- inputProducts) {
+      result += product.price
+    }
 
    result
   }
