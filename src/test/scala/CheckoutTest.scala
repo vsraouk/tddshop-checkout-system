@@ -16,7 +16,7 @@ class CheckoutTest extends AnyFunSpec with Matchers {
 
     val checkout = new Checkout
 
-    val expectedValue =  2.8
+    val expectedValue =  2.80
     val actualValue = checkout.Total(input)
 
     assert(~=(expectedValue,  actualValue))
