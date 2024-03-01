@@ -23,7 +23,7 @@ class OffersTest extends AnyFunSpec with Matchers {
 
   it("OrangeOffer should generate expected result" ){
 
-    val expectedValue =  0.50
+    val expectedValue =  0.25
 
     val actualValue = OrangeOffer.getDiscount(input)
 

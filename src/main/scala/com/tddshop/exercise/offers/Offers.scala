@@ -16,7 +16,7 @@ object AppleOffer extends Offers {
 
 object OrangeOffer extends Offers {
   override def getDiscount(cart : List[Product]): Double ={
-    cart.filter(_ == Orange).size / 3 * Orange.price * 2
+    cart.filter(_ == Orange).size / 3 * Orange.price
   }
 
 }
